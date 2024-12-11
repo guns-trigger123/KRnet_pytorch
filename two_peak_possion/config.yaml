@@ -1,0 +1,14 @@
+experiment_params:
+  max_epochs: 50
+  max_iters: 500
+  num_dom: 5000
+  num_bou: 1250
+  pinn_lr: 0.0001
+  nf_lr: 0.0008
+  sch_T_0: 500
+  sch_T_mult: 1
+  pinn_bou_weight: 100
+  aas_beta: 10
+
+logging_params:
+  sample_method: "aas_pinn"
