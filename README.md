@@ -13,17 +13,21 @@ This is the **unofficial** pytorch version implementation of the paper "DAS: A d
 ### 1 two peak possion
 
 uniform resample
+
 ![PINN](./plots/two_peak_possion/vanilla_pinn/vanilla_pinn_49_500.png)
 
 KR net resample (DAS)
+
 ![PINN](./plots/two_peak_possion/das_pinn/das_pinn_49_500.png)
 
 ### 2 deterministic lid driven cavity
 
 uniform resample Re = 100
+
 ![PINN](./plots/lid_driven_cavity/Re100/vanilla_pinn/vanilla_pinn_49_500.png)
 
 uniform resample Re = 400
+
 ![PINN](./plots/lid_driven_cavity/Re400/vanilla_pinn/vanilla_pinn_499_500.png)
 
 For parameterized lid driven cavity flow problems (Re = [100,1000]), see: https://github.com/MJfadeaway/DAS-2 and cite 
